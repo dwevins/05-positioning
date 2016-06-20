@@ -6,7 +6,8 @@
 
   &-item {
     color: $blue;
-    border-bottom: $border-size $border-style $gray;
+   text-decoration: underline;
+   text-decoration-color: $gray;
     width: 7.9rem;
     padding-bottom: 0.1rem;
   }
