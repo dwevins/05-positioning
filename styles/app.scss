@@ -1,11 +1,20 @@
 $fa-font-path: '//netdna.bootstrapcdn.com/font-awesome/4.3.0/fonts';
 
-$gray: #cbcbcb;
+$gray: #b6b6b6;
+$dk-gray: darken($gray, 20%);
 $green: #2dac00;
 $blue: #3289d9;
 $margin: 10%;
+$vertical-margin: 10%;
+$white: #ffffff;
+$border-size: 1px;
+$border-style: solid;
 
 @import 'font-awesome';
 @import 'box-sizing';
 @import 'reset';
 @import 'content-box';
+@import 'header';
+@import 'circle';
+@import 'list';
+@import 'share-box'
