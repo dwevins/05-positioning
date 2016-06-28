@@ -1,0 +1,14 @@
+.list {
+  margin-left: $margin;
+  margin-bottom: $vertical-margin;
+  list-style-type: square;
+  width: auto;
+
+  &-item {
+    color: $blue;
+   text-decoration: underline;
+   text-decoration-color: $gray;
+    width: 7.9rem;
+    padding-bottom: 0.1rem;
+  }
+}
